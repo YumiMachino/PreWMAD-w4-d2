@@ -1,16 +1,26 @@
 body {
   font-family: "Gill Sans", sans-serif;
 }
+
 header {
-  background-color: black;
-  font-size: 40px;
-  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
   padding: 20px;
   width: 100%;
-  color: white;
+  height: 180px;
+  background-image: url(https://img.freepik.com/free-photo/_23-2148224566.jpg?size=626&ext=jpg);
+  margin: 0 auto;
+  text-align: center;
 }
+
+header h1 {
+  color: #2b2a2a;
+  top: 50%;
+  font-size: 60px;
+}
+
 .container {
-  background-color: white;
+  background-color:white;
   padding: 5px;
   width: 100%;
   margin: 0 auto;
@@ -18,7 +28,9 @@ header {
 
 h3 {
   font-size: 35px;
-  text-align: center;
+  background-colo;
+  padding: 20px 20px;
+  margin: 10px 10px;
 }
 .option li {
   display: inline;
@@ -30,12 +42,15 @@ h3 {
 
 .button {
   background-color: whitesmoke;
-  border: 1px solid black;
-  border-radius: 50px 50px;
-  padding: 5px;
+  border: 1px dotted black;
+  padding: 0px 20px;
+  margin:0px 20px;
+  color:#333333;
+  font-family:Alegreya, serif;
 }
+
 .button:hover {
-  background-color: black;
+  background-color:#959595;
   color: white;
 }
 

@@ -101,14 +101,10 @@ header {
 
 .driverLocation {
   width: 100%;
-  background-color: ;
   text-align: center;
   padding: 50px;
 }
 .driverLocation h2 {
   font-size: 45px;
-}
-.driverLocation img {
-  width: 60vw;
-  height: 60vh;
+  width: 100%;
 }
