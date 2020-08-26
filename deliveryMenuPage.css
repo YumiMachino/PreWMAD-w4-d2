@@ -24,6 +24,9 @@ h3 {
   display: inline;
   font-size: 25px;
 }
+.rating p {
+  color: yellow;
+}
 
 .button {
   background-color: whitesmoke;
@@ -39,14 +42,13 @@ h3 {
 .items {
   display: flex;
   max-width: 100%;
-  background-color: ;
-
   flex-wrap: wrap;
 }
 
 .item {
   border: 1px solid black;
   margin: 20px;
+  background-color: lightslategray;
 }
 .item img {
   width: 20vw;

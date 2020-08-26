@@ -11,18 +11,90 @@ header {
 }
 .status {
   width: 100%;
-  background-color: ;
+  background-color:;
   padding: 20px;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   padding: 50px;
 }
+/* --- 全体のBOX定義 ---------------------------------------- */
+.box {
+  position   : relative;
+  max-width  : 800px;
+  height     : 600px;
+  margin     : auto;
+  overflow   : hidden;
+}
+
+/* --- 背景の指定 ------------------------------------------- */
+.box .bgImg {
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 20s infinite;   /* 4画像 × 各5s = 20s */
+}
+
+/* --- 段差で背景画像のアニメーションを実行 ----------------- */
+.box .src1 {
+  background-image : url(https://newscast.jp/attachments/EyxTrHGzWsikSXflQpha.jpg);   /* 背景の画像を指定 */
+}
+.box .src2 {
+  background-image : url(https://d1som9eclaj1c0.cloudfront.net/upload_picture/foodist_magazine/original_S1428626719696_1.jpg);   /* 背景の画像を指定 */
+  animation-delay  : 5s;
+}
+.box .src3 {
+  background-image : url(https://cdn.asagei.com/syokuraku/uploads/2020/04/20200412-taxi-meshi01.jpg）;   
+  /* 背景の画像を指定 */
+  animation-delay  : 10s;
+}
+
+.box .src4 {
+  background-image : url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6KZD_oYWGw7S4OGrRSGO7Zq0o14ZVjP_GoA&usqp=CAU);   /* 背景の画像を指定 */
+  animation-delay  : 15s;
+}
+
+@keyframes bgAnime {
+   0% { opacity: 0; }
+   5% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+ 100% { opacity: 0; }
+}
+
+/* --- 前面の文字定義（サンプルのため変更してください） ----- */
+.box .boxString{
+  position   : absolute;
+  display    : inline-block;
+  padding    : 20px;
+  background : rgba(0, 127, 255, 0.7);          /* 半透明の青 */
+  color      : #fff;
+  top        : 50%;                               /* 中央寄せ */
+  left       : 50%;
+  transform  : translate(-50%,-50%);
+  z-index    : 11;
+
+
+
+
+/* .image {
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+}
+
 .image img {
+  display: block;
+  /* position: absolute; */
+/* animation: slideAnime 12s ease infinite;
   width: 50vw;
+  height: 40vh;
   margin-left: 30px;
   margin-top: 20px;
-}
-.sushiProcess {
+} */
+* .sushiProcess {
   width: 50vw;
   font-size: 50px;
   padding-left: 40px;
