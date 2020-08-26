@@ -1,0 +1,41 @@
+header {
+  background-color: black;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: white;
+}
+.status {
+  width: 100%;
+  background-color: ;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+.image img {
+  width: 50vw;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.sushiProcess {
+  width: 50vw;
+  font-size: 50px;
+  padding-left: 40px;
+  padding-top: 60px;
+  margin: 50px;
+}
+.driverLocation {
+  width: 100%;
+  background-color: ;
+  text-align: center;
+  padding: 50px;
+}
+.driverLocation h2 {
+  font-size: 45px;
+}
+.driverLocation img {
+  width: 60vw;
+  height: 60vh;
+}
