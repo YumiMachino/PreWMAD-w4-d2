@@ -1,12 +1,13 @@
 header {
-  background-color: yellow;
+  background-color: black;
   font-size: 40px;
   text-align: center;
   padding: 20px;
   width: 100%;
+  color: white;
 }
 .container {
-  background-color: gray;
+  background-color: white;
   padding: 5px;
   width: 100%;
   margin: 0 auto;
@@ -28,13 +29,14 @@ h3 {
   padding: 5px;
 }
 .button:hover {
-  background-color: rgb(3, 252, 219);
+  background-color: black;
+  color: white;
 }
 
 .items {
   display: flex;
   max-width: 100%;
-  background-color: blueviolet;
+  background-color: ;
 
   flex-wrap: wrap;
 }
@@ -56,5 +58,6 @@ h3 {
   border-radius: 50px 50px;
 }
 .cart p:hover {
-  background-color: blue;
+  background-color: black;
+  color: white;
 }
