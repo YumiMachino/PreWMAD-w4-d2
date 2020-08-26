@@ -3,13 +3,58 @@ header {
   font-size: 40px;
   text-align: center;
   padding: 20px;
+  width: 100%;
 }
 .container {
   background-color: gray;
   padding: 5px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 h3 {
   font-size: 35px;
   text-align: center;
+}
+.option li {
+  display: inline;
+  font-size: 25px;
+}
+
+.button {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 50px 50px;
+  padding: 5px;
+}
+.button:hover {
+  background-color: rgb(3, 252, 219);
+}
+
+.items {
+  display: flex;
+  max-width: 100%;
+  background-color: blueviolet;
+
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid black;
+  margin: 20px;
+}
+.item img {
+  width: 20vw;
+}
+.item p {
+  font-weight: bold;
+  text-align: center;
+}
+.cart p {
+  border: 1px solid black;
+  margin: 20px 10px;
+  border-radius: 50px 50px;
+}
+.cart p:hover {
+  background-color: blue;
 }
