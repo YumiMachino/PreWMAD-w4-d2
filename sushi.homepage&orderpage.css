@@ -1,0 +1,430 @@
+* {
+margin: 0px;
+  padding: 0px;
+}
+  
+/* Homepage */
+
+/* Sushi-master img */
+.sushi-master {
+  text-align: center;
+}
+.sushi-master img {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.title-main {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: larger;
+  margin-top: 40px;
+}
+
+/* Slideshow */
+
+.cp_cssslider {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.cp_slide_item {
+	width: 300px;
+	height: 200px;
+	float: left;
+  position: relative;
+}
+
+.cp_slide_item img{
+	width: 300px;
+	height: 200px;
+  object-fit:contain;
+}
+.cp_slidewrapper {
+	width: 500%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* スピード */
+}
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	40% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	60% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	80% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	40% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	60% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	80% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+
+
+/* nav */
+nav{
+  text-align: center;
+  }
+  nav ul{
+  margin: 0 ;
+  padding: 0 ;
+  }
+  nav ul li{
+  list-style: none;
+  display: inline-block;
+  width: 18%;
+  min-width: 90px;
+  font-family: 'Russo One', sans-serif;
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: #333;
+  }
+  nav ul li.current a{
+  color: #F33135;
+  }
+  nav ul li a:hover{
+  color: #E7DA66;
+  }
+
+.best-sushi {
+/* text-align: center; */
+background-color: black;
+color: white;
+width: 330px;
+margin: 20px auto;
+text-align: center;
+}
+
+  /* some menu */
+.some-menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.some-menu img{
+  width: 100px;
+  background-position: center ;
+  border-radius:50%
+}
+
+
+
+  /* Order button */
+  .button {
+    text-align: center;
+  }
+
+  .btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+    margin-top: 50px;
+    width : 200px;
+    height: 40px;
+  }
+  
+  .btn-flat-simple:hover {
+    background: #00bcd4;
+    color: white;
+  }
+
+  /* Estimate */
+  .estimate {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(236, 228, 213);
+    padding-top: 30px;
+  }
+.estimate h2 {
+  margin-bottom: 30px;
+}
+  /* form */
+  form {
+    text-align: center;
+  }
+  input {
+    width: 400px;
+  }
+
+  .btn-flat-simple-time {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 8px;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+    margin-top: 50px;
+    width : 150px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-flat-simple-time:hover {
+    background: #00bcd4;
+    color: white;
+  }
+
+  .time-time {
+    display: flex;
+    justify-content: center;
+  }
+
+  .time-time h3{
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: 'Russo One', sans-serif;
+
+  }
+
+  .time-time h1{
+    margin-right: 40px;
+    border-bottom: double;
+    border-color: #00BCD4;
+    border-width: 5px;
+    margin-bottom: 30px;
+    font-family: 'Russo One', sans-serif;
+
+  }
+
+  /* NEWS */
+  .news-title{
+    text-align: center;
+    margin-top: 100px;
+  }
+.big-news {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.small-news {
+margin: 20px;
+}
+
+.big-news img {
+ height: 150px;
+  max-width: 200px;
+}
+
+.big-news p{
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+/* Orderpage--------------------------------------------------------- */
+.order-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  width: 80%;
+  height: 300px;
+}
+
+.table-order {
+  text-align: center;
+}
+
+table td,th{
+  border: solid 1px black;
+}
+.table-order img {
+  width: 70px;
+  margin-left: 20px;
+}
+
+.money {
+  font-size: larger;
+  color: #0a9745;
+}
+/* pay button */
+.button-pay {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn-flat-simple-pay {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 8px;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+  margin-top: 50px;
+  width : 150px;
+  height: 30px;
+  text-align: center;
+  
+}
+
+.btn-flat-simple-pay:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+/* Go Button */
+.btn-flat-simple-cash {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 8px;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #ECECEC;
+  transition: .4s;
+  /* margin-bottom: 40px; */
+  width : 150px;
+  height: 30px;
+  text-align: center;
+  margin-left: 200px;
+  
+}
+
+.btn-flat-simple-cash:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.button-cash {
+  text-align: center;
+}
+
+.paypay {
+  margin: 30px;
+ text-align: center;
+}
+
+.paypay img {
+  width: 200px;
+}
+
+.how-to-pay h1{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.how-to-pay input {
+ margin-bottom: 30px;
+width: 150px;
+margin-left: 100px;
+}
+
+.ororor {
+  text-align: center;
+  margin: 50px;
+}
+/* .pay-select {
+  /* text-align: center; */
+/* margin-right: 100px; */
+/* } */ 
+
+.cash-go {
+  display: flex;
+  /* justify-content: center; */
+}
+
+form input{
+  margin-bottom: 30px;
+}
+/* footer________________________________________________________ */
+footer {
+  background-color: gainsboro;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon i{
+  width: 50px;
+}
+
+.footer-big {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-big ul {
+  list-style: none;
+}
+
+.footer-big li{
+  margin-bottom: 10px;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.footer-big a{
+ color: black;
+  text-decoration: none;
+}
+
+.footer-small {
+  margin: 30px;
+}
+
+.copy {
+  text-align: center;
+}
