@@ -3,7 +3,7 @@ body {
   background-image: url(https://img.freepik.com/free-photo/_23-2148224566.jpg?size=626&ext=jpg);
   background-repeat: repeat;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
   background-size: auto;
 }

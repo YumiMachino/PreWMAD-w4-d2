@@ -1,17 +1,29 @@
 body {
   font-family: "Gill Sans", sans-serif;
 }
+
 header {
-  background-color: black;
+  background-image: url(https://img.freepik.com/free-photo/_23-2148224566.jpg?size=626&ext=jpg);
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  background-size: auto;
   font-size: 40px;
   text-align: center;
   padding: 20px;
   width: 100%;
   color: white;
 }
+
+header h1 {
+  color: #2b2a2a;
+  top: 50%;
+  font-size: 60px;
+  border-bottom: 4px solid #1f5184;
+  margin: 50px 400px;
+}
+
 .status {
   width: 100%;
-  background-color: lightgray;
   padding-top: 50px;
 }
 
@@ -41,6 +53,7 @@ header {
   /* 背景の画像を指定 */
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
 }
 
 .box .src2 {
@@ -97,6 +110,42 @@ header {
 }
 .box p {
   text-align: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.icon {
+  font-size: 50px;
+}
+.box2 p {
+  font-size: 30px;
+}
+.stage {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px 50px;
+  color: #2b2a2a;
+  border: 1px dotted gray;
+}
+.orderPlaced {
+  background-color: #1f5184;
+  color: white;
+}
+.preparing {
+  background-color: #1f5184;
+  color: white;
+}
+.bar {
+  font-size: 100px;
+  color: #1f5184;
+  margin: 0;
+  padding-top: 50px;
+}
+.barLast {
+  color: #2b2a2a;
 }
 
 .driverLocation {
