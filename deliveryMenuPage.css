@@ -8,6 +8,35 @@ body {
   background-size: auto;
 }
 
+nav {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 15%;
+  min-width: 90px;
+  font-family: "Russo One", sans-serif;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+nav ul li.current a {
+  color: #f33135;
+}
+nav ul li a:hover {
+  color: #e7da66;
+}
+
 header {
   padding: 20px;
   width: 100%;
@@ -87,4 +116,52 @@ h3 {
 .cart p:hover {
   background-color: #1f5184;
   color: white;
+}
+/* footer________________________________________________________ */
+footer {
+  background-color: gainsboro;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon i {
+  width: 50px;
+}
+
+.purchase {
+  text-align: center;
+  padding-right: 30px;
+  margin-left: 70vw;
+  font-size: 30px;
+}
+
+.footer-big {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-big ul {
+  list-style: none;
+}
+
+.footer-big li {
+  margin-bottom: 10px;
+  font-family: "Russo One", sans-serif;
+}
+
+.footer-big a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-small {
+  margin: 30px;
+}
+
+.copy {
+  text-align: center;
 }

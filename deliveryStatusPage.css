@@ -1,17 +1,18 @@
 body {
   font-family: "Gill Sans", sans-serif;
+  margin: 0;
 }
 
 header {
   background-image: url(https://img.freepik.com/free-photo/_23-2148224566.jpg?size=626&ext=jpg);
   background-color: rgba(255, 255, 255, 0.4);
   background-blend-mode: lighten;
-  background-size: auto;
-  font-size: 40px;
-  text-align: center;
+  background-size: cover;
   padding: 20px;
-  width: 100%;
+  max-width: 100%;
   color: white;
+  margin: 0 auto;
+  height: 15vh;
 }
 
 header h1 {
@@ -19,7 +20,7 @@ header h1 {
   top: 50%;
   font-size: 60px;
   border-bottom: 4px solid #1f5184;
-  margin: 50px 400px;
+  text-align: center;
 }
 
 .status {
