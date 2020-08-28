@@ -271,6 +271,13 @@ margin: 20px;
   text-align: center;
 }
 
+.under-order {
+  width: 200px;
+  height: 3px;
+  background-color: rgb(26, 103, 167);
+  margin: 10px auto;
+}
+
 table {
   border-collapse: collapse;
   margin: 50px auto;
@@ -278,6 +285,9 @@ table {
   height: 300px;
 }
 
+table th {
+  font-size: large;
+}
 .table-order {
   text-align: center;
 }
@@ -286,8 +296,12 @@ table td,th{
   border: solid 1px black;
 }
 .table-order img {
-  width: 70px;
+  width: 90px;
   margin-left: 20px;
+}
+
+.table-order th,td {
+  padding: 10px;
 }
 
 .money {
@@ -339,14 +353,19 @@ table td,th{
   
 }
 
+.address {
+background-color: rgb(241, 232, 217);
+padding: 20px;
+height: 100px;
+width: 500px;
+margin: 10px auto;
+}
+
 .btn-flat-simple-cash:hover {
   background: #00bcd4;
   color: white;
 }
 
-.button-cash {
-  text-align: center;
-}
 
 .paypay {
   margin: 30px;
@@ -359,7 +378,7 @@ table td,th{
 
 .how-to-pay h1{
 text-align: center;
-margin-bottom: 50px;
+
 }
 
 .how-to-pay input {
@@ -368,23 +387,28 @@ width: 150px;
 margin-left: 100px;
 }
 
-.ororor {
-  text-align: center;
-  margin: 50px;
-}
-/* .pay-select {
-  /* text-align: center; */
-/* margin-right: 100px; */
-/* } */ 
-
-.cash-go {
-  display: flex;
-  /* justify-content: center; */
-}
-
 form input{
+  margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+.cash-card {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.button-cash {
+  text-align: center;
+}
+
+.ororor {
+ margin: 10px auto;
+  width: 80%;
+  height: 1px;
+ background-color: black;
+}
+
 /* footer________________________________________________________ */
 footer {
   background-color: gainsboro;
