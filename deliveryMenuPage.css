@@ -61,6 +61,7 @@ h3 {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .item {
@@ -70,6 +71,7 @@ h3 {
 }
 .item img {
   width: 20vw;
+  height: 20vh;
 }
 .item p {
   font-weight: bold;

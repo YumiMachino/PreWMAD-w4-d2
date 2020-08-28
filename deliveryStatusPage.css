@@ -147,6 +147,11 @@ header h1 {
 .barLast {
   color: #2b2a2a;
 }
+.status h2 {
+  font-size: 45px;
+  border-bottom: 4px solid #1f5184;
+  text-align: center;
+}
 
 .driverLocation {
   width: 100%;
@@ -156,4 +161,6 @@ header h1 {
 .driverLocation h2 {
   font-size: 45px;
   width: 100%;
+  border-bottom: 4px solid #1f5184;
+  padding-bottom: 10px;
 }
